@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifecare Hospital Appointment Portal</title>
+    <style>
+        body { font-family: 'Segoe UI', Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f7f6; color: #333; }
+        header { background-color: #007bff; color: white; padding: 20px; text-align: center; }
+        .container { max-width: 1200px; margin: 20px auto; padding: 0 20px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; }
+        .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        h2 { color: #007bff; border-bottom: 2px solid #f4f7f6; padding-bottom: 10px; }
+        .announcement { background-color: #fff3cd; border-left: 5px solid #ffc107; padding: 15px; border-radius: 4px; margin-bottom: 20px; }
+        .slot { display: inline-block; background: #28a745; color: white; padding: 5px 10px; margin: 5px 2px; border-radius: 4px; font-size: 0.9em; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Lifecare Hospital Appointment Portal</h1>
+    <p>Secure, Swift, and Automated Healthcare Scheduling</p>
+</header>
+
+<div class="container">
+    <div class="announcement">
+        <h3>📢 Hospital Announcement</h3>
+        <p>New Neurology Wing opening next month! Bookings open early next week.</p>
+    </div>
+
+    <div class="grid">
+        <!-- Medical Specializations & Doctors -->
+        <div class="card">
+            <h2>Cardiology</h2>
+            <p><strong>Doctor:</strong> Dr. Arvind Sharma</p>
+            <p><strong>Timings:</strong> 09:00 AM - 01:00 PM</p>
+            <div>
+                <span class="slot">10:30 AM</span>
+                <span class="slot">11:15 AM</span>
+                <span class="slot">12:00 PM</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Pediatrics</h2>
+            <p><strong>Doctor:</strong> Dr. Sarah Jones</p>
+            <p><strong>Timings:</strong> 02:00 PM - 06:00 PM</p>
+            <div>
+                <span class="slot">02:30 PM</span>
+                <span class="slot">04:15 PM</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
